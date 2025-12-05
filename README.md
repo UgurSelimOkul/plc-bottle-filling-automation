@@ -123,7 +123,7 @@ A comprehensive cost analysis was conducted for industrial feasibility.
 
 For detailed technical specifications, specific component datasheets, and operational algorithms, please refer to the full project report attached to this repository.
 
-[📥 **Download Project Report (DOCX)**](Project-Report.pdf)
+[📥 **Download Project Report (PDF)**](Project-Report.pdf)
 
 ---
 
