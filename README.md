@@ -2,7 +2,7 @@
 
 **An end-to-end industrial automation project designed for a 6-bottle filling, capping, and packaging line.**
 
-This project encompasses the complete engineering lifecycle: from mechanical 3D design and cost analysis to electrical circuit design and PLC programming using **Siemens S7-1200** and **TIA Portal**.
+This project encompasses the complete engineering lifecycle: from mechanical 3D design and cost analysis to system architecture using **Siemens S7-1200 PLC** and **TIA Portal**.
 
 ---
 
@@ -12,9 +12,8 @@ This project encompasses the complete engineering lifecycle: from mechanical 3D 
 3. [Hardware & Components](#-hardware--components)
 4. [Process Flow](#-process-flow)
 5. [3D Design & Mechanical Layout](#-3d-design--mechanical-layout)
-6. [Electrical & Power Design](#-electrical--power-design)
-7. [PLC Programming (TIA Portal)](#-plc-programming-tia-portal)
-8. [Budget Analysis](#-budget-analysis)
+6. [Technical Documentation](#-technical-documentation)
+7. [Budget Analysis](#-budget-analysis)
 
 ---
 
@@ -72,37 +71,31 @@ The automation logic is time-window based, ensuring synchronized operations with
 The physical layout was modeled to ensure ergonomic operation and spatial efficiency.
 
 ### System Overview (Isometric View)
-![System Isometric View](3D-Design/isometric-view-main.jpg)
+![Isometric Main](3D-Design/isometric-view-main.jpg)
 
 ### Front View
-![System Front View](3D-Design/front-view.jpg)
+![Front View](3D-Design/front-view.jpg)
 
-### Top Layout View
-![System Top View](3D-Design/top-view.jpg)
+### Top View (Layout)
+![Top View](3D-Design/top-view.jpg)
 
 ### Additional Angles
-![System Left View](3D-Design/isometric-view-left.jpg)
+| Angle 1 | Angle 2 |
+| :---: | :---: |
+| ![Left 1](3D-Design/isometric-view-left-1.jpg) | ![Left 2](3D-Design/isometric-view-left-2.jpg) |
 
 ---
 
-## ⚡ Electrical & Power Design
+## 📄 Technical Documentation
 
-Detailed wiring diagrams for PLC I/O and Motor Power Circuits.
+Detailed wiring diagrams, power circuit schematics, and PLC ladder logic diagrams are available in the full project report attached to this repository.
 
-### Power Circuit (Motors)
-![Power Circuit](Power-Circuits/power-circuit.jpg)
+**The full report includes:**
+* Detailed PLC Logic & Algorithms (LAD)
+* Electrical Power Circuit Diagrams
+* I/O Wiring Schematics
 
-### PLC Wiring Diagram
-![PLC Wiring](Wiring-Diagrams/wiring-diagram.jpg)
-
----
-
-## 💻 PLC Programming (TIA Portal)
-
-The logic is implemented using Ladder Diagram (LAD). Below are key network examples showing the automation logic.
-
-### Network Logic
-![Ladder Logic](PLC-Logic/ladder-logic.jpg)
+📥 **[Download Full Project Report (DOCX)](Project-Report.docx)**
 
 ---
 
@@ -116,14 +109,6 @@ A comprehensive cost analysis was conducted for industrial feasibility.
 | **HMI Panel** | 83,000 TL |
 | **Servo Motors (x18)** | 248,400 TL |
 | **Total System Cost** | **~415,638 TL** |
-
----
-
-## 📄 Full Project Report
-
-For detailed technical specifications, specific component datasheets, and operational algorithms, please refer to the full project report attached to this repository.
-
-[📥 **Download Project Report (PDF)**](Project-Report.pdf)
 
 ---
 
