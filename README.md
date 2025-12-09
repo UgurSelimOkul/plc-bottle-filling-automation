@@ -95,7 +95,7 @@ Detailed wiring diagrams, power circuit schematics, and PLC ladder logic diagram
 * Electrical Power Circuit Diagrams
 * I/O Wiring Schematics
 
-📥 **[Download Full Project Report (PDF)](project-report.pdf)**
+📥 **[Download Full Project Report (PDF)](Project-Report.pdf)**
 
 ---
 
